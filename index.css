@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.layer-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: #494E6B;
+}
+
+.layer-one-picture {
+    width: 20em;
+}
+
+.layer-one-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 37em;
+}
+
+.layer-one-texts h4 {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.layer-one-texts h1 {
+    font-size: 2.7rem;
+    width: 50%;
+
+    margin: 0.15em 0 0.5em 0;
+}
+
+.layer-one-texts p {
+    font-size: .9rem;
+    font-weight: lighter;
+    line-height: 1.3rem;
+}
+
+.layer-one-buttons {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1em;
+}
+
+.layer-one-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 900;
+    
+    width: 90%;
+    cursor: pointer;
+    padding: 0.4em;
+    border: none;
+    border-radius: .3rem;
+    transition: 0.5s;
+    
+    margin: 0.3em 0;
+    
+}
+
+#layer-one-linkedin-button {
+     background-color: #98878F;
+}
+
+#layer-one-github-button {
+    background-color: #985E6D;
+}
+
+#layer-one-linkedin-button:hover, #layer-one-github-button:hover {
+    background-color: #192231;
+
+    
+}
+
+
+.layer-one-button p {
+    flex-grow: 0.7;
+    font-size: 1rem;
+}
+
+/* layer two */
+
+.layer-two {
+    display: flex;
+    flex-direction: row;
+    background-color: #192231;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 2em;
+}
+
+.layer-two-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layer-two-title h1 {
+    font-size: 2.7rem;
+    width: 50%;
+
+    margin: 0.15em 0 0.5em 0;
+}
+
+.layer-two-title img {
+    width: 20em;
+    margin-top: 3em;
+}
+
+.layer-two-activities {
+    display: flex;
+    flex-direction: column;
+}
+
+.general-activities-container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1em;
+    margin: 0.5em;
+    border: .2em solid #FFD700;
+    border-radius: 0.7em;
+}
+
+.year-activity {
+    color: #FFD700;
+    font-weight: 700;
+}
+
+.general-activities-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: .4em;
+}
+
+.general-activities-text p {
+    font-weight: lighter;
+    font-size: .9rem;
+}
+
+#layer-two-container-one {
+    background-color:#494E6B;
+}
+
+#layer-two-container-two,#layer-two-container-four {
+    background-color:#985E6D;
+}
+
+#layer-two-container-three {
+    background-color: #98878F;
+}
+
+
+/* layer three */
+
+.layer-three {
+    display: flex;
+    flex-direction: column; 
+    background-color: #494E6B;
+    align-items: center;
+
+    padding: 2em;
+}
+
+.layer-three h1 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    margin-bottom: 0.7em;
+}
+
+.layer-three-experience {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 2em;
+    margin: 0.5em;
+    border: .2em solid #FFD700;
+    border-radius: 0.7em;
+    background-color: #192231;
+}
+
+.layer-three-experience-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+    width: 20em;
+    color:#FFD700;
+}
+.layer-three-experience-title h2 {
+    margin-bottom: 0.5em;
+}
+
+.layer-three-experience p {
+    width: 40em;
+    line-height: 1.3rem;
+}
+
+/* layer four  */
+
+.layer-four {
+    
+}
