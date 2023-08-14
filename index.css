@@ -2,12 +2,14 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+
 }
 
 .principal {
     display: flex;
     flex-direction: column;
     color: white;
+
 }
 
 .layer-one{
@@ -59,6 +61,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    text-align: center;
+
+
+    text-decoration: none;
     color: white;
     font-weight: 900;
     
@@ -87,13 +93,16 @@
     
 }
 
-
 .layer-one-button p {
     flex-grow: 0.7;
     font-size: 1rem;
 }
 
+
+
 /* layer two */
+
+
 
 .layer-two {
     display: flex;
@@ -123,7 +132,7 @@
     margin-top: 3em;
 }
 
-.layer-two-activities {
+.layer-two-activities, .layer-four-sctivities {
     display: flex;
     flex-direction: column;
 }
@@ -156,20 +165,24 @@
     font-size: .9rem;
 }
 
-#layer-two-container-one {
+#layer-two-container-one, #layer-four-container-one, #layer-four-container-four {
     background-color:#494E6B;
 }
 
-#layer-two-container-two,#layer-two-container-four {
+#layer-two-container-two,#layer-two-container-four, #layer-four-container-two {
     background-color:#985E6D;
 }
 
-#layer-two-container-three {
+#layer-two-container-three, #layer-four-container-three {
     background-color: #98878F;
 }
 
 
+
+
 /* layer three */
+
+
 
 .layer-three {
     display: flex;
@@ -218,8 +231,130 @@
     line-height: 1.3rem;
 }
 
+
+
 /* layer four  */
 
+
+
 .layer-four {
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 2em;
+    background-color: #192231;
 }
+
+
+
+.layer-four-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.layer-four-title h1 {
+    font-size: 2.7rem;
+    width: 60%;
+
+    margin: 0.15em 0 0.5em 0;
+}
+
+.layer-four-title img {
+    width:15em;
+    margin-top: 3em;
+}
+
+
+/* layer five */
+
+.layer-five {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2em;
+    background-color: #494E6B;
+}
+
+.layer-five h1 {
+    text-align: center;
+    margin: 0.7em;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+.layer-five-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.layer-five-cardbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 15em;
+    width: 10em;
+    padding: 1em;
+    border: 0.25em solid #FFD700;
+    border-radius: 0.5em;
+
+
+}
+
+.layer-five-cardbox img {
+    width: 4em;
+    margin: 1em;
+}
+
+.layer-five-cardbox h3 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: medium;
+    color: #FFD700;
+}
+
+.layer-five-cardbox-experience-total {
+    background-color:#192231;
+    width: 90%;
+}
+
+.layer-five-cardbox-experience-total > div {
+    background-color: #98878F;
+    height: 1.2em;
+}
+
+#cardbox-experience-javascript {
+    width: 50%;
+}
+
+#cardbox-experience-nodejs {
+    width: 75%;
+}
+
+#cardbox-experience-typescript {
+    width: 70%;
+}
+
+#cardbox-experience-mysql {
+    width: 35%;
+}
+
+#cardbox-experience-sqlserver {
+    width: 45%;
+}
+
+#cardbox-experience-java {
+    width: 65%;
+}
+
+#cardbox-experience-reactjs {
+    width: 55%;
+}
+
+
